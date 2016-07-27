@@ -8,9 +8,11 @@ Description
 
 	dkapp xxx/yyy zzz
 
-=
+is
 
 	docker run --rm -it -v $(pwd):/mount xxx/yyy /mount/zzz
+
+.
 
 The image must have an entry point.
 
