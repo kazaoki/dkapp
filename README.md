@@ -1,14 +1,14 @@
 dkapp
 =====
 
-Simple command alias for docker app simple run once.
+Command alias for docker app simple run once.
 
 Description
 -----------
 
 	dkapp xxx/yyy zzz
 
-is
+is the same as
 
 	docker run --rm -it -v $(pwd):/mount xxx/yyy /mount/zzz
 
